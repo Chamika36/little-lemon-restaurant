@@ -3,7 +3,7 @@ import home from '../assets/restauranfood.jpg';
 
 const Main = () => {
     return (
-        <Container>
+        <Container className="bg-secondary">
             <Row>
                 <Col md={6}>
                     <h1>Little Lemon</h1>
@@ -13,7 +13,7 @@ const Main = () => {
                 </Col>
 
                 <Col md={6}>
-                    <Image width={400} src={home} alt="hello"/>
+                    <Image width={400} height={400} src={home} alt="hello"/>
                 </Col>
             </Row>
         </Container>
